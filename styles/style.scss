@@ -1,0 +1,17 @@
+$cor-borda: tomato;
+
+@mixin reset() {
+  margin: 0;
+}
+
+h1 {
+  @include reset();
+
+  border-bottom: 1px solid $cor-borda;
+  padding: 10px;
+
+  height: 100px;
+  width: 100px;
+
+  box-sizing: border-box;
+}

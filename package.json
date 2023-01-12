@@ -1,0 +1,12 @@
+{
+  "name": "box-model-e-box-sizing-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass_compile": "sass ./styles/style.scss ./styles/style.css",
+    "sass_compile_watch": "sass --watch ./styles/style.scss ./styles/style.css"
+  },
+  "author": "Otavio Henrique de Lima e Silva",
+  "license": "ISC"
+}
